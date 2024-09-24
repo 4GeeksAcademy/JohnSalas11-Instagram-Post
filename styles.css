@@ -1,0 +1,97 @@
+*{
+    font-family: roboto;
+}
+body{
+    background: black;
+    margin: 0;
+}
+div.wrapper{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+div.post {
+    background: white; 
+    height: 470px;
+    border-radius: 5%;
+}
+
+div.post-header .writtenheader {
+    padding-left: 50px;
+    position: relative;
+    right: 20px;
+}
+div.post-header .writtenheader h1{
+    font-size: 11px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+div.post-header .writtenheader p{
+    margin-top: 0;
+    font-size: 12px;
+    position: relative;
+    top: -5px;
+}
+.header-icons .html5{
+    float: left;
+    font-size: 20px;
+    position: relative;
+    top: -49px;
+    right: -10px;
+}
+.header-icons .elipsis{
+    float: right;
+    font-size: 23px;
+    position: relative;
+    top: -48px;
+    left: -15px;
+}
+div.post img{
+    width: 350px;
+    position: relative;
+    top: -45px;
+}
+div.post-body {
+    position: relative;
+    top: -25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 10;
+    display: inline-block;
+    font-size: 12px;
+}
+.text {
+    position: relative;
+    top: -10px;
+    
+}
+.likes {
+    margin-bottom: 5px;
+}
+.body-icons {
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: -20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.heart{
+    position: relative;
+    right: 125px;
+}
+.comment{
+    position: relative;
+    right: 120px;
+}
+.share{
+    position: relative;
+    right: 115px;
+}
+.save{
+    position: relative;
+    left: 120px;
+}
